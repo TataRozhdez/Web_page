@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" >
+  <symbol id="border" viewBox="0 0 330 240">
+    <g>
+      <path d="M67 0v11.469H10v65.468H0V0zM263 228.53h57v-65.469h10V240h-67z"/>
+    </g>
+  </symbol>
+</svg>
+
+<!--  fill="#f1f2f7" -->

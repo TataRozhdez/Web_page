@@ -1,0 +1,89 @@
+@import './variables.css';
+
+.amount {
+  padding: 0 255px 74px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 25px;
+}
+.amount-elem {
+  width: 330px;
+  height: auto;
+  position: relative;
+}
+.elem-text {
+  position: absolute;
+  top: 45px;
+  right: 40px;
+  text-align: center;
+}
+.elem-text h3 {
+  font-size: 72px;
+}
+.elem-text span {
+  font-size: 22px;
+}
+.green-elem .elem-border {
+  fill: #70a513;
+}
+.green-elem h3 {
+  color: #70a513;
+}
+.green-elem .elem-border {
+  fill: #70a513;;
+}
+.yellow-elem h3 {
+  color: #f0c808;
+}
+.yellow-elem .elem-border {
+  fill: #f0c808;
+}
+.blue-elem h3 {
+  color: #004f9f;
+}
+.blue-elem .elem-border {
+  fill: #004f9f;
+}
+.red-elem h3 {
+  color: #fe5f55;
+}
+.red-elem .elem-border {
+  fill: #fe5f55;
+}
+
+@media (max-width: 1600px) {
+  .amount {
+    padding: 0 50px 74px;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 25px 50px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .amount-elem {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 910px) {
+  .amount {
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, auto);
+    padding: 0 20px 20px;
+  }
+  .amount-elem {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 465px) { 
+  .elem-border {
+    width: 300px;
+  }
+  .amount {
+    padding: 0 5px;
+  }
+  .elem-text {
+    right: 60px;
+  }
+}
